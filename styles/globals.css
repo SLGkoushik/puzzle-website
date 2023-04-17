@@ -1,0 +1,755 @@
+body{
+    text-align: center;
+    background-color: black;
+    
+}
+.fancy-button{
+    width: 25rem;
+    margin: 2rem;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.login-form-label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-form-input {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-form-button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
+.login-signup p {
+  margin-right: 0.5rem;
+}
+
+.login-signup-button {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  border-width: 0px;
+  border-color: #000;
+  padding: 0%;
+  margin: 0%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-error {
+  color: red;
+  margin-top: 1rem;
+}
+
+/* sign up */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.signup-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-form-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.signup-form-label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.signup-form-input {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.signup-form-button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.signup-login p {
+  margin-right: 0.5rem;
+}
+
+.signup-login-button button {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  border-width: 0px;
+  border-color: #000;
+  padding: 0%;
+  margin: 0%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.signup-error {
+  color: red;
+  margin-top: 1rem;
+}
+
+/*puzzle*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 20px; /* Add some space between the columns */
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background-color: black;
+}
+
+.right-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add any other styling needed for the game */
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.left-column img {
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.left-column ul {
+  margin-top: 0;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+  text-align: left;
+}
+
+.left-column li {
+  font-size: 22px;
+}
+
+.right-column h2{
+  display: inline-block;
+}
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.right-column h1, h2, h3 {
+  color: white;
+}
+
+.right-column h2, h3 {
+  margin-top: 10px;
+}
+
+.right-column table {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.right-column td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  padding: 10px;
+}
+
+.right-column td:hover {
+  background-color: #d6d6d6;
+}
+
+.right-column .active {
+  background-color: #d6d6d6;
+}
+
+.right-column .score, .time {
+  color: white;
+}
+
+.right-column .game-over {
+  color: red;
+}
+
+.right-column .replay-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.right-column table {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+.right-column td {
+  /* other properties */
+  border: 1px solid black;
+}
+.right-column button {
+  margin-bottom: 0.5rem;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  width: 30%;
+
+}
+
+
+
+
+/* img {
+  mix-blend-mode:overlay;
+} */
+
+/* Memory Game */
+
+.card {
+  width: 90px;
+  height: 120px;
+  margin: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 140px;
+}
+
+.card-back {
+  background-color: #2980b9;
+  transform: rotateY(180deg);
+}
+
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+
+.cell {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.selected {
+  background-color: rgb(0, 0, 0);
+}
+
+.room-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-container {
+  flex: 1;
+  flex-basis: 100%;
+  text-align: center;
+  font-family: 'Gothic', sans-serif;
+}
+
+.right-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.right-container h6{
+  font-size: 25px;
+}
+
+h1 {
+  margin-top:20px;
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+  text-align: left;
+}
+
+li {
+  font-size: 20px;
+}
+
+
+.game-board {
+  margin-top: 0rem;
+}
+
+@media (max-width: 767px) {
+  .room-container {
+    flex-direction: column;
+  }
+
+  .left-container {
+    flex-basis: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .right-container {
+    flex-basis: 100%;
+  }
+}
+.game-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.game-board {
+  flex: 1;
+}
+
+.game-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+  margin: 9%;
+}
+.game-buttons h3{
+  margin-top: 0px;
+  font-size: 42px;
+}
+.game-buttons h6{
+  font-size: 25px;
+}
+
+.game-buttons button {
+  margin-bottom: 0.5rem;
+  justify-content: center;
+  margin-top: 5%;
+  font-size: 25px;
+
+}
+
+
+
+.scary {
+  font-family: 'Chiller', cursive;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+}
+.tower-of-hanoi {
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+}
+
+.pole {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 10%;
+  background-color: #aaa;
+  border-radius: 10px;
+}
+
+.disc {
+  height: 25px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+/* analytical css*/
+.word-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+}
+
+.left-container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: black;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+.right-container {
+  background-color:black;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.word-search-table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: 0 auto;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.word-search-table td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.word-search-table td:hover {
+  background-color: #d6d6d6;
+}
+
+.cell {
+  background-color: #151414;
+  border: 1px solid #ded5d5;
+}
+
+.selected {
+  background-color: #060707;
+}
+
+.found-words {
+  margin-top: 20px;
+}
+
+.found-words p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.found-words ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.found-words li {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.word-search-table td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  user-select: none;
+}
+
+.word-search-table td:hover,
+.word-search-table td.selected {
+  background-color: #d6d6d6;
+}
+
+.word-search-table td.selected-vertical {
+  background-color: #d6d6d6;
+  background-image: linear-gradient(to bottom, transparent 50%, #d6d6d6 50%);
+  background-size: 100% 200%;
+  background-position: center top;
+}
+
+.word-search-table td.selected-horizontal {
+  background-color: #d6d6d6;
+  background-image: linear-gradient(to right, transparent 50%, #d6d6d6 50%);
+  background-size: 200% 100%;
+  background-position: left center;
+}
+
+.word-search-table td.selected-diagonal {
+  background-color: #d6d6d6;
+  background-image: linear-gradient(to bottom right, transparent 50%, #d6d6d6 50%);
+  background-size: 200% 200%;
+  background-position: left top;
+}
+.word-search-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+
+
+.right-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:black;
+  padding: 5rem;
+}
+
+.left-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 1.2rem;
+  
+}
+
+.left-container h1 {
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  font-size: 2rem;
+}
+
+.left-container ul {
+  margin-top: 0px;
+  max-height: 50vh;
+  overflow: auto;
+  font-size: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.header img {
+  display: flex;
+  flex: 1;
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+  object-fit: cover;
+}
+
+.description {
+  flex: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.start-button {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-bottom: 0.5rem;
+  justify-content: center;
+  font-size: 25px;
+  width: 500px;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+/* Style for the input box */
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+/* Style for the Submit button */
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for the Next Page button */
+button[type="button"] {
+  background-color: #008CBA;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for the headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Style for the paragraphs */
+p {
+  font-family: Arial, sans-serif;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.submit-btn {
+  width: 100px;
+}
